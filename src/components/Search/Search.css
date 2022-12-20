@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins&family=Roboto+Slab:wght@500&display=swap");
+.search-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10em;
+  min-height: 84vh;
+  background-image: url("https://media.istockphoto.com/id/1130714046/photo/empty-dark-wooden-table-in-front-of-abstract-blurred-bokeh-background-of-restaurant-can-be.jpg?b=1&s=170667a&w=0&k=20&c=81AFO47LmBWjAa8643R4JO4bFyBRPAkYlH23Cc6t3Cw=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.head {
+  color: white;
+  font-size: 3em;
+  min-width: 350px;
+}
+.cook {
+  color: yellow;
+}
+.search {
+  margin-top: 38px;
+  width: 100%;
+  text-align: center;
+  min-width: 420px;
+}
+.search-input {
+  padding: 0.8em;
+  min-width: 200px;
+  font-size: 1em;
+  width: 40%;
+  border: 2px solid white;
+  border-radius: 8px 0 0 8px;
+  background: transparent;
+}
+.submit {
+  padding: 0.8em;
+  font-size: 1em;
+  background: #0000006e;
+
+  border-radius: 0 8px 8px 0;
+  border: 2px solid white;
+  color: white;
+}
+.submit:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.search input {
+  color: white;
+}
+.recipes {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 230px 230px;
+
+  align-items: baseline;
+}
+
+.app_healthLabels {
+  cursor: pointer;
+  padding: 1em;
+  margin-left: 6px;
+  border-radius: 4px;
+  background: transparent;
+  color: white;
+}
+option {
+  color: black;
+}

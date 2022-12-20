@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins&family=Roboto+Slab:wght@500&display=swap");
+
+.recipe-card {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.recipe-card:hover {
+  transform: translateY(-20px);
+}
+.recipe-img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.recipe-des {
+  max-width: 200px;
+  text-align: center;
+  margin: 12px 0;
+  color: white;
+}

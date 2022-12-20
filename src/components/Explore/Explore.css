@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins&family=Roboto+Slab:wght@500&display=swap");
+#Explore {
+  padding: 3em;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 40px 0;
+}
+.container-header h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+.container .card {
+  min-width: 320px;
+  height: 340px;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 15px;
+  margin: 30px;
+  transition: 0.5s;
+  width: 40%;
+}
+
+.container .card:nth-child(1) .box .content a {
+  background: black;
+}
+
+.container .card:nth-child(2) .box .content a {
+  background: black;
+}
+
+.container .card:nth-child(3) .box .content a {
+  background: black;
+}
+
+.container .card .box {
+  /* position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px; */
+  background-image: url("https://previews.123rf.com/images/vicu9/vicu91801/vicu9180100647/94405395-picture-blurred-for-background-abstract-blur-food-in-restaurant.jpg");
+
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  margin: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.container .card .box:hover {
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.container .card .box .content {
+  padding: 20px;
+  text-align: center;
+}
+
+.container .card .box .content h3 {
+  font-size: 1.8rem;
+  color: black;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+
+.container .card .box .content p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: black;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.container .card .box .content a {
+  /* position: relative; */
+  display: inline-block;
+  padding: 8px 20px;
+  background: black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+.container .card .box .content a:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  color: #000;
+}
+.ex-btn {
+  text-align: center;
+}
+.ex-btn .btn {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+
+  font-size: 1em;
+  padding: 1em;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+.ex-btn .btn:hover {
+  background-color: rgb(203, 202, 202);
+  color: #000;
+  transition: 0.5s;
+}

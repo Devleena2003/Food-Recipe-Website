@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins&family=Roboto+Slab:wght@500&display=swap");
+.hero {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: white;
+
+  background-image: url("http://bereziacafe.com/assets/img/hero/hero_bg_3_2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero h1 {
+  font-size: 4em;
+
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+.cook {
+  color: yellow;
+}
+a {
+  color: white;
+}
+
+.hero .btn {
+  display: block;
+  width: 200px;
+
+  padding: 1em;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  color: white;
+
+  text-decoration: none;
+  font-size: 1.5em;
+
+  border: 3px solid white;
+  border-radius: 10px;
+}
+.hero .btn:hover {
+  background-color: white;
+  cursor: pointer;
+  transition: 1s;
+  color: black;
+}
